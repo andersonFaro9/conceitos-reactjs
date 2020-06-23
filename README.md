@@ -1,6 +1,4 @@
 
-Terceiro desafio proposto pelo bootcamp Gostack12 da Rockeseat
-
 <h2 align="center"> Conceitos React Js </h2>
 
 <h4 align="center">
