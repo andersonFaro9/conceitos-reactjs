@@ -1,72 +1,77 @@
+<img alt="GoStack" src="https://storage.googleapis.com/golden-wind/bootcamp-gostack/header-desafios.png" />
 
-<h2 align="center"> Conceitos React Js </h2>
+<h3 align="center">
+  Desafio 03: Conceitos do ReactJS
+</h3>
 
-<h4 align="center">
+<p align="center">“Faça seu melhor, mas sempre com prazo de entrega”!</blockquote>
 
-🚀 É como crianças querendo aprender a andar de bicicleta:
-Uma vontade absurda de repetir o que aprendeu para não esquecer.
-Deve ser genuíno e preciso, sua mente deve ser insistente como um garoto que não perde de vista seu brinquedo favorito!!!
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/DanielObara/desafio-03-conceitos-reactjs?color=%2304D361">
 
-![bootcamp](https://user-images.githubusercontent.com/3237047/85075213-31fa8800-b194-11ea-8b4e-12e8df42ded5.jpg)
+  <a href="https://www.linkedin.com/in/danielobara/">
+    <img alt="Made by DanielObara" src="https://img.shields.io/badge/made%20by-DanielObara-%2304D361">
+  </a>
 
-</h4>
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
 
-<h5 align="center">
-O curso Bootcamp GoStack 12 feito pela RocketSeat tem feito toda diferença em minha vida, com ótima didática ensinada e satisfação alcançada. Nesse primeiro modúlo foi abordado
-os conceitos básicos de Node Js, seguido de muita prática aprendendo sobre Rest, Métodos HTTP: GET, POST, PUT, DELETE e por fim, um teste usando o framework Jest que faz a análise do código para entrega do desafio.
-Minha nota foi 10 mas nota é só um detalhe que não deve embaçar a tua procura pelo entendimento pleno destas tecnologias.
+  <a href="https://github.com/DanielObara/desafio-03-conceitos-reactjs/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/DanielObara/desafio-03-conceitos-reactjs?style=social">
+  </a>
+</p>
 
-</h5>
-<br/>
+<p align="center">
+  <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#calendar-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-## :rocket: Technologies
+## :rocket: Sobre o desafio
 
- ![react](https://user-images.githubusercontent.com/3237047/85427384-10155280-b552-11ea-912c-35a521d1344d.png)
+Nesse desafio, você deve criar uma aplicação para treinar o que você aprendeu até agora no ReactJS!
 
+Agora você deve continuar desenvolvendo a aplicação que irá armazenar repositórios do seu portfólio, que você já desenvolveu o backend no último desafio utilizando o Node.js.
 
-## :computer: O que é:.
+### Template da aplicação
 
-### Mais uma vez um crud como todas as funcionalidades em mostrar, adicionar e remover.
-Entendemos que através dos metódos http, seja o get,post, put, delete, pode criar maravilhosos sistemas, com isso conseguimos através
-do front-end que chama a api criada no backend, o resultado esperado, é gratificante!!!!
+Para te ajudar nesse desafio, criamos para você um modelo que você deve utilizar como um template do Github.
 
-### Testes
-![teste](https://user-images.githubusercontent.com/3237047/85427173-c9bff380-b551-11ea-9142-b31a1244e4e6.png)
+O template está disponível na seguinte url: **[Acessar Template](https://github.com/Rocketseat/gostack-template-conceitos-reactjs)**
 
-## :nerd_face: :rocket: Como contribuir:
+**Dica**: Caso não saiba utilizar repositórios do Github como template, temos um guia em **[nosso FAQ](https://github.com/Rocketseat/bootcamp-gostack-desafios/tree/master/faq-desafios).**
 
-Para fazer fork; :white_check_mark:
+Agora navegue até a pasta criada e abra no Visual Studio Code, execute o comando `yarn` no seu terminal para instalar todas as dependências e já estará pronto para iniciar.
 
-Crie um "branch" com sua "feature": `git checkout -b my-feature`; :white_check_mark: <br/>
-commit mudanças: `git commit -m 'feat: My new feature'`; :white_check_mark:<br/>
- Do push the branch: `git push origin my-feature` :white_check_mark:
+### Funcionalidades da aplicação
 
-####  :white_check_mark:  Este repositório te ajudou ou mesmo te inspirou? Saiba que isso foi conquistado com muita dedicação e esperança e o mais importante:
-#### :white_check_mark:  Mantive e mantenho minha fé em <b>Deus</b> em primeiro no topo dos meus compromissos.
+Agora que você já está com o template clonado, e pronto para continuar, você deve abrir o arquivo **src/App.js**, e completar onde não possui código com o código para atingir os objetivos de cada funcionalidade.
 
-#### :page_facing_up: License
-Este projeto está sob a licença  MIT, feito com love e dedicação :hearts: por Anderson Faro, para detalhes, see the [LICENSE](LICENSE.md) 👋
+- **`Listar os repositórios da sua API`**: Deve ser capaz de criar uma lista com o campo **title** de todos os repositórios que estão cadastrados na sua API.
 
+- **`Adicionar um repositório a sua API`**: Deve ser capaz de adicionar um novo item na sua API através de um botão com o texto **Adicionar** e, após a criação, deve ser capaz de exibir o nome dele após o cadastro.
 
+- **`Remover um repositório da sua API`**: Para cada item da sua lista, deve possuir um botão com o texto **Remover** que, ao clicar, irá chamar uma função para remover esse item da lista do seu frontend e da sua API.
 
+### Específicação dos testes
 
+Em cada teste, tem uma breve descrição no que sua aplicação deve cumprir para que o teste passe.
 
+Caso você tenha dúvidas quanto ao que são os testes, e como interpretá-los, dê uma olhada em **[nosso FAQ](https://github.com/Rocketseat/bootcamp-gostack-desafios/tree/master/faq-desafios).**
 
+Para esse desafio temos os seguintes testes:
 
+- **`should be able to add new repository`**: Para que esse teste passe, sua aplicação deve permitir que um repositório seja adicionado ao seu backend e listado no seu frontend dentro de uma `LI`.
 
+- **`should be able to remove repository`**: Para que esse teste passe, sua aplicação deve permitir que ao clicar no botão de remover que vai estar dentro da `LI` do repositório adicionado, o item seja removido da listagem.
 
+## :calendar: Entrega
 
+Esse desafio deve ser entregue a partir da plataforma Skylab, envie o link do repositório que você fez suas alterações. Após concluir o desafio, fazer um post no Linkedin e postar o código no Github é uma boa forma de demonstrar seus conhecimentos e esforços para evoluir na sua carreira para oportunidades futuras.
 
+## :memo: Licença
 
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
+---
 
-
-
-
-
-
-
-
-
-
-
+Feito com 💜 by Rocketseat :wave: [Entre na nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
